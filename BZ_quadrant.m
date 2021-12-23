@@ -295,11 +295,3 @@ bsces70(72,72,319:332) = min(min(bsces70(:,:,319:332)));
 
 %%%%%%%%%%%%%%%---------------------%%%%%%%%%%%%%%%%%%%%%%
 
-% Plot a few "dispersions" to see how things are looking:
-
-figure;cut = bsces70(:,40,:);   cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
-figure;cut = bsces70(:,80,:);   cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
-figure;cut = bsces70(:,100,:);  cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
-figure;cut = bsces70(:,120,:);  cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
-figure;cut = bsces70(:,150,:);  cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
-figure;cut = bsces70(:,180,:);  cut=reshape(cut,dims(2),dims(3));   imagesc(cut'); set(gca,'YDir','normal')
