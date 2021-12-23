@@ -14,7 +14,7 @@ beta = 1/(kB*T);                        % 1/eV
 
 U = 0.67;       % adjust for corresponding data set
 
-chi0 = chi0_70_0;       % adjust for each temperature
+chi0 = chi0_70;       % adjust for each temperature
 dims = size(chi0);
 N = dims(1)*dims(2);
 om = linspace(0.0,0.2,dims(3));
